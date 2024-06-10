@@ -3,9 +3,9 @@ import os
 # restaurantes = []
 # restaurantes = ['Pizza', 'Sushi']
 restaurantes = [
-    {'nome':'Praça', 'categoria':'Japonesa', 'ativo':False},
-    {'nome':'Pizza Suprema', 'categoria':'Pizza', 'ativo':True},
-    {'nome':'Cantina', 'categoria':'Italiano', 'ativo':False}
+    {'nome':'Praça', 'categoria':'Japonesa', 'status':False},
+    {'nome':'Pizza Suprema', 'categoria':'Pizza', 'status':True},
+    {'nome':'Cantina', 'categoria':'Italiano', 'status':False}
 ]
 
 def finalizar_app():
@@ -37,7 +37,7 @@ def cadastrar_novo_restaurante():
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
 
-    dados_do_restaurante = {'nome':nome_do_restaurante, 'categoria':categoria, 'ativo':False}
+    dados_do_restaurante = {'nome':nome_do_restaurante, 'categoria':categoria, 'status':False}
 
     # restaurantes.append(nome_do_restaurante)
     restaurantes.append((dados_do_restaurante))
@@ -56,12 +56,12 @@ def listar_restaurantes():
     for restaurante in restaurantes:
         nome_restaurante = restaurante['nome']
         categoria = restaurante['categoria']
-        # ativo = restaurante['ativo']
-        ativo = 'ativado' if restaurante['ativo'] else 'desativado'
+        # status = restaurante['status']
+        ativo = 'ativado' if restaurante['status'] else 'desativado'
 
         # print(f'.{restaurante}')
         # print(f'- {restaurante}')
-        # print(f' - {nome_restaurante} | {categoria} | {ativo}')
+        # print(f' - {nome_restaurante} | {categoria} | {status}')
 
 
         print(f'- {nome_restaurante.ljust(20)} | {categoria.ljust(20)} | {ativo}')
@@ -77,11 +77,11 @@ def alternar_estado_restaurante():
     for restaurante in restaurantes:
         if nome_restaurante == restaurante['nome']:
             restaurante_encontrado = True
-            restaurante['ativo'] = not restaurante['ativo']
+            restaurante['status'] = not restaurante['status']
 
             mensagem = \
                 f'O restaurante {nome_restaurante} foi ativado com sucesso' \
-                    if restaurante['ativo'] \
+                    if restaurante['status'] \
                     else f'O restaurante {nome_restaurante} foi desativado com sucesso'
 
             print(mensagem)

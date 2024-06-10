@@ -1,8 +1,8 @@
 import os
 
-restaurantes = [{'nome': 'Praça', 'categoria': 'Japonesa', 'ativo': False},
-                {'nome': 'Pizza Suprema', 'categoria': 'Pizza', 'ativo': True},
-                {'nome': 'Cantina', 'categoria': 'Italiano', 'ativo': False}]
+restaurantes = [{'nome': 'Praça', 'categoria': 'Japonesa', 'status': False},
+                {'nome': 'Pizza Suprema', 'categoria': 'Pizza', 'status': True},
+                {'nome': 'Cantina', 'categoria': 'Italiano', 'status': False}]
 
 
 def exibir_nome_do_programa():
@@ -78,7 +78,7 @@ def cadastrar_novo_restaurante():
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
-    dados_do_restaurante = {'nome': nome_do_restaurante, 'categoria': categoria, 'ativo': False}
+    dados_do_restaurante = {'nome': nome_do_restaurante, 'categoria': categoria, 'status': False}
     restaurantes.append(dados_do_restaurante)
     print(f'O restaurante {nome_do_restaurante} foi cadastrado com sucesso!')
 
@@ -103,14 +103,14 @@ def listar_restaurantes():
     for restaurante in restaurantes:
         nome_restaurante = restaurante['nome']
         categoria = restaurante['categoria']
-        ativo = 'ativado' if restaurante['ativo'] else 'desativado'
+        ativo = 'ativado' if restaurante['status'] else 'desativado'
         print(f'- {nome_restaurante.ljust(20)} | {categoria.ljust(20)} | {ativo}')
 
     voltar_ao_menu_principal()
 
 
 def alternar_estado_restaurante():
-    ''' Altera o estado ativo/desativado de um restaurante
+    ''' Altera o estado status/desativado de um restaurante
 
     Outputs:
     - Exibe mensagem indicando o sucesso da operação
@@ -122,9 +122,9 @@ def alternar_estado_restaurante():
     for restaurante in restaurantes:
         if nome_restaurante == restaurante['nome']:
             restaurante_encontrado = True
-            restaurante['ativo'] = not restaurante['ativo']
+            restaurante['status'] = not restaurante['status']
             mensagem = f'O restaurante {nome_restaurante} foi ativado com sucesso' if restaurante[
-                'ativo'] else f'O restaurante {nome_restaurante} foi desativado com sucesso'
+                'status'] else f'O restaurante {nome_restaurante} foi desativado com sucesso'
             print(mensagem)
 
     if not restaurante_encontrado:
