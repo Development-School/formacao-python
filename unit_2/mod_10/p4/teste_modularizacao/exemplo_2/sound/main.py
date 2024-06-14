@@ -40,6 +40,16 @@ equalizer.equalizer_exec()
 equalizer.equalizer_exec2()
 
 print("-----------------------------------------------")
+
 from filters import karaoke
 print(karaoke.__name__)
 karaoke.karaoke_exec()
+
+print("-----------------------------------------------")
+
+from formats import aiffread
+print(aiffread.__name__)
+aiffread.aiffread_exec_effects_echo()
+aiffread.aiffread_exec_filters_karaoke()
+
+print("-----------------------------------------------")
