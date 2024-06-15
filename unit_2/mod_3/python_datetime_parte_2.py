@@ -12,7 +12,7 @@ data_e_hora_atuais = datetime.now()
 """Vamos ver o que é impresso na tela:"""
 
 """Traceback (most recent call last):
-  File "teste.py", line 4, in >
+  File "05_Entendendo_a_validação.py", line 4, in >
     fuso_horario = timezone()
 TypeError: Required argument 'offset' (pos 1) not found"""
 
@@ -29,7 +29,7 @@ conhecida como UTC-3. Sabendo disso, vamos tentar novamente:"""
 """Vamos ver o que é impresso na tela:"""
 
 """Traceback (most recent call last):
-  File "teste.py", line 4, in <module>
+  File "05_Entendendo_a_validação.py", line 4, in <module>
     fuso_horario = timezone(-3)
 TypeError: timezone() argument 1 must be datetime.timedelta, not int"""
 

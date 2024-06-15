@@ -43,7 +43,7 @@ print("-----------------------------------------------")
 
 lucas.setNome = "Lucas Caminha"
 lucas.setIdade = 40
-lucas.setCpf = '002.980.643-75'
+lucas.setCpf = '736.395.750-91'
 print(lucas)
 
 print("-----------------------------------------------")
@@ -55,6 +55,6 @@ print(lucas.getCpf)
 print("-----------------------------------------------")
 
 print(vars(lucas))
-# {'_nome': 'Lucas Caminha', '_idade': 40, '_cpf': '002.980.643-75'}
+# {'_nome': 'Lucas Caminha', '_idade': 40, '_cpf': '736.395.750-91'}
 
 print("-----------------------------------------------")

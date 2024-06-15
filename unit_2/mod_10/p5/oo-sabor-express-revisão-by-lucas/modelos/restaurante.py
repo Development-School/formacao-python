@@ -42,7 +42,8 @@ class Restaurante:
         for restaurante in cls.restaurantes:
             print(f'{restaurante._nome.ljust(25)} | '
                   f'{restaurante._categoria.ljust(25)} | '
-                  f'{str(restaurante.media_avaliacoes()).ljust(25)} | '
+                  # f'{str(restaurante.media_avaliacoes()).ljust(25)} | ' # Boas práticas não chamar o método diretamete
+                  f'{str(restaurante.media_avaliacoes).ljust(25)} | '
                   f'{restaurante.ativo}')
 
     def alternar_status(self):
@@ -64,7 +65,7 @@ class Restaurante:
             avaliacao = Avaliacao(cliente, nota)
             self._avaliacao.append(avaliacao)
 
-
+    @property
     def media_avaliacoes(self):
         """Calcula e retorna a média das avaliações do restaurante."""
         if not self._avaliacao:
