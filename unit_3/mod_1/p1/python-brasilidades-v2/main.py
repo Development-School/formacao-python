@@ -2,7 +2,7 @@ from Cpf import Cpf
 
 print("-----------------------------------------------")
 
-# objeto_cpf2 = Cpf("153162647541")
+# objeto_cpf2 = CpfCnpj("153162647541")
 # ValueError: Quantidade de dígitos inválida
 
 objeto_cpf2 = Cpf("15316264754")
@@ -11,7 +11,7 @@ print(objeto_cpf2)
 
 print("-----------------------------------------------")
 
-# objeto_cpf3 = Cpf("11111111112")
+# objeto_cpf3 = CpfCnpj("11111111112")
 # ValueError: CPF inválido!
 
 objeto_cpf3 = Cpf("73639575091")
@@ -25,7 +25,7 @@ print(cpf.validate("736.395.750-91")) # True
 
 print("-----------------------------------------------")
 
-# objeto_cpf4 = Cpf("736.395.750-91")
+# objeto_cpf4 = CpfCnpj("736.395.750-91")
 # print(objeto_cpf4)
 # ValueError: Quantidade de dígitos inválida
 

@@ -2,12 +2,12 @@ from Cpf import Cpf
 
 print("-----------------------------------------------")
 
-# objeto_cpf4 = Cpf("736.395.750-91")
+# objeto_cpf4 = CpfCnpj("736.395.750-91")
 # print(objeto_cpf4)
 # ValueError: Quantidade de dígitos inválida
 
 # Ajuste na função cpf_eh_Valido:
-# objeto_cpf4 = Cpf("736.395.750-91")
+# objeto_cpf4 = CpfCnpj("736.395.750-91")
 # print(objeto_cpf4)
 # 002..98.0.6-43-75
 

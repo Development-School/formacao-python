@@ -17,8 +17,8 @@ print("-----------------------------------------------")
 from Cpf import Cpf
 objeto_cpf = Cpf(cpf)
 # print(objeto_cpf)
-# <Cpf.Cpf object at 0x00000279208AB7D0>
-print('Antes da implementação do \"__str__\":\n<Cpf.Cpf object at 0x00000279208AB7D0>')
+# <CpfCnpj.CpfCnpj object at 0x00000279208AB7D0>
+print('Antes da implementação do \"__str__\":\n<CpfCnpj.CpfCnpj object at 0x00000279208AB7D0>')
 
 print("-----------------------------------------------")
 
