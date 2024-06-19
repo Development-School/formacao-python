@@ -11,9 +11,8 @@ livro = {
     'em_estoque': True
 }
 
-
-print(livro['preco'])
+print(livro['preco']) # 59.9
 
 livro.update({'preco': 70.90})
 
-print(livro['preco'])
+print(livro['preco']) # 70.9
