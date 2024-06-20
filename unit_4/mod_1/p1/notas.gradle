@@ -1,0 +1,67 @@
+Criando ambiente virtual no Python (Via "CMD"):
+
+Entre no caminho da pasta (Ex:):
+    $ cd .\unit_4\mod_1\p1\python-tdd\
+
+Para verificar a persão utilize o seguinte comando:
+    $ python --version
+    //Retorno: Python 3.12.1
+
+Agora execute o seguinte comando para criar o Ambiente Virtual
+    
+    $ python3 -m "venv" "nome_do_ambiente_virtual"
+                 "VM" "<nome_da_m>"
+    $ python3 -m venv venv
+        ou
+    $ python -m venv venv
+
+Ps: Será criada uma pasta vend nmo diretório
+
+
+Habilitar permissão pelo terminal do Pycharm - ("Execução de Script desativada | Python") (via "Power Shell"):
+
+    $ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+Comando para "Ativar" a VM 
+    $ source nome_do_ambiente_virtual/bin/activate
+    $ source venv/bin/activate
+        ou
+    Caso utilize o windows, para ativar o ambiente o comando se difere: ▼
+    "Busque pelo terminal" manualmente com "TAB" até encontrar o activate:
+    $ .\venv\Scripts\activate 
+
+    Após rodar o comando o terminal mudará para ("venv"):
+        "(venv) D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_4\mod_1\p1\python-tdd"
+
+Comando para "Desativar" a VM:
+    $ deactivate
+        ou
+    $ .\venv\Scripts\deactivate
+
+Prontinho!!
+    
+Outros: ▼
+
+    Replicando ambientes ▼
+    No início do artigo falamos sobre os ambientes virtuais trazerem a simplicidade
+    de replicar o ambiente em outras máquinas e isso se deve a possibilidade de
+    exportarmos um arquivo com todas bibliotecas que o nosso projeto contém.
+    
+    Veja como é simples:
+
+        $ pip freeze > requirements.txt
+    
+    Com o comando acima, será criado um arquivo com todas as bibliotecas presentes 
+    em nosso ambiente virtual. Por exemplo:
+
+        flake8==3.7.9
+        Flask==1.1.2
+        Flask-API==2.0
+    
+    Agora, se quisermos rodar o nosso projeto em outra máquina, não será necessário
+    baixar as dependências uma a uma, basta fazer:
+
+        $ pip install -r requirements.txt  
+
+    Com o comando acima, será instalado de forma automática todas as bibliotecas
+    presentes no arquivo requirements.txt
