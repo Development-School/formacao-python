@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ddf41e-5309-4d59-a072-ce92d21f6b92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/unit_4/mod_1/p2/Teste_OK/projeto_teste.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit_4/mod_1/p2/Teste_OK/python_tdd.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/formacao-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formacao-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/01_Python_Syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/01_Python_Syntax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/02_Python_Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/02_Python_Variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/03_Python_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/03_Python_Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/04_Python_Casting.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/04_Python_Casting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/05_Python_Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/05_Python_Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/06_Python_Operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/06_Python_Operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/Python Examples/00. Python Examples.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/Python Examples/00. Python Examples.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_2/mod_3/python_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_2/mod_3/python_datetime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2iC5WY7paradUxXAWGdQaxW6Ehs" />
   <component name="ProjectLevelVcsManager">
@@ -153,6 +143,7 @@
       <workItem from="1718996622210" duration="67000" />
       <workItem from="1718996711648" duration="684000" />
       <workItem from="1718997436475" duration="4493000" />
+      <workItem from="1719003906306" duration="281000" />
     </task>
     <servers />
   </component>
