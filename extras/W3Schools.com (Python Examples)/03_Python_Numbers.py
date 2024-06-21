@@ -6,6 +6,7 @@
 
 print("-----------------------------------------------")
 
+# Verify the type of an object
 x = 1
 y = 2.8
 z = 1j
@@ -21,6 +22,7 @@ print(type(z))
 
 print("-----------------------------------------------")
 
+# Create integers
 x = 1
 y = 35656222554887711
 z = -3255522
@@ -36,6 +38,7 @@ print(type(z))
 
 print("-----------------------------------------------")
 
+# Create floating point numbers
 x = 1.10
 y = 1.0
 z = -35.59
@@ -51,6 +54,7 @@ print(type(z))
 
 print("-----------------------------------------------")
 
+# Create scientific numbers with an "e" to indicate the power of 10
 x = 35e3
 y = 12E4
 z = -87.7e100
@@ -66,6 +70,7 @@ print(type(z))
 
 print("-----------------------------------------------")
 
+# Create complex numbers
 x = 3+5j
 y = 5j
 z = -5j
@@ -78,9 +83,5 @@ print(type(y))
 
 print(type(z))
 # <class 'complex'>
-
-print("-----------------------------------------------")
-
-# ...
 
 print("-----------------------------------------------")

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/formacao-python.iml" filepath="$PROJECT_DIR$/.idea/formacao-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../../tmp/.projetos/.idea/projetos.iml" filepath="$PROJECT_DIR$/../../../../../../tmp/.projetos/.idea/projetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/.idea/projetos_PATH.iml" filepath="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/.idea/projetos_PATH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/python_tdd/.idea/python_tdd.iml" filepath="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/python_tdd/.idea/python_tdd.iml" />
     </modules>
   </component>
 </project>

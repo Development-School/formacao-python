@@ -4,25 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352ac25c-dba7-47d4-979b-ffeeddf60760" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/unit_1/mod_9/p4/interpretando_dicionarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_1/mod_9/p4/interpretando_dicionarios.py" afterDir="false" />
+    <list default="true" id="c3ddf41e-5309-4d59-a072-ce92d21f6b92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/unit_4/mod_1/p2/Teste_OK/projeto_teste.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_4/mod_1/p2/Teste_OK/python_tdd.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/formacao-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formacao-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/01_Python_Syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/01_Python_Syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/02_Python_Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/02_Python_Variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/03_Python_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/03_Python_Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/04_Python_Casting.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/04_Python_Casting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/05_Python_Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/05_Python_Strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/06_Python_Operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/06_Python_Operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/Python Examples/00. Python Examples.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/Python Examples/00. Python Examples.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_2/mod_3/python_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_2/mod_3/python_datetime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2cPimgP5NEdUKazeLnuiJjCK3cT" />
+  <component name="ProjectId" id="2iC5WY7paradUxXAWGdQaxW6Ehs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -30,52 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/unidade-1.9.3",
-    "last_opened_file_path": "D:/Users/Builder/Documents/Projetos e Criações/.Git/formacao-python/unit_1/mod_9/p3/sabor-express",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "last_opened_file_path": "D:/Users/Builder/Documents/Projetos e Criações/.Git/formacao-python/unit_4/mod_1/p2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.splitter.proportion": "0.22607781",
     "vue.rearranger.settings.migration": "true"
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/unidade-1.9.4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Builder/Documents/Projetos e Criações/.Git/formacao-python/unit_1/mod_9/p4/sabor-express&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
->>>>>>> feature/unidade-1.9.4
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p3\sabor-express" />
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p3" />
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p2\sabor-express" />
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p2" />
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\sabor-express" />
+      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_4\mod_1\p2" />
+      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\extras\W3Schools.com (Python Examples)" />
+      <recent name="D:\tmp\projetos_PATH\projeto_teste" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p3" />
-      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_1\mod_9\p1" />
+      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\extras\W3Schools.com (Python Examples)\Python Examples\.convertido" />
+      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\extras\W3Schools.com (Python Examples)\Python Examples" />
+      <recent name="D:\Users\Builder\Documents\Projetos e Criações\.Git\formacao-python\unit_4\mod_1\p2\Teste_OK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Hora da prática - listas, for e try except">
-    <configuration name="Avaliando listas e iterações" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_bytebank.TestClass">
+    <configuration name="07_Python_Lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="formacao-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,12 +87,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_1/mod_9/p3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_1/mod_9/p3/Avaliando listas e iterações.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)/07_Python_Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,149 +101,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hora da prática - listas, for e try except" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bytebank.TestClass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="formacao-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_1/mod_9/p3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_4/mod_1/p2/python_tdd_v02/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_1/mod_9/p3/Hora da prática - listas, for e try except.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Interpretando listas e erros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="formacao-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_1/mod_9/p3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_1/mod_9/p3/Interpretando listas e erros.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="formacao-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Builder\AppData\Local\Programs\Python\Python312\python.exe" />
-      <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app_v5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="formacao-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_1/mod_9/p3/sabor-express" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_1/mod_9/p3/sabor-express/app_v5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="while_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="formacao-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_1/mod_9/p3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_1/mod_9/p3/while_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bytebank.TestClass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.Avaliando listas e iterações" />
-      <item itemvalue="Python.Hora da prática - listas, for e try except" />
-      <item itemvalue="Python.Interpretando listas e erros" />
-      <item itemvalue="Python.while_example" />
-      <item itemvalue="Python.app_v5" />
+      <item itemvalue="Python.07_Python_Lists" />
+      <item itemvalue="Python tests.Python tests for test_bytebank.TestClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Hora da prática - listas, for e try except" />
-        <item itemvalue="Python.Interpretando listas e erros" />
-        <item itemvalue="Python.Avaliando listas e iterações" />
-        <item itemvalue="Python.app_v5" />
-        <item itemvalue="Python.while_example" />
+        <item itemvalue="Python tests.Python tests for test_bytebank.TestClass" />
+        <item itemvalue="Python.07_Python_Lists" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="352ac25c-dba7-47d4-979b-ffeeddf60760" name="Changes" comment="" />
-      <created>1708019774668</created>
+      <changelist id="c3ddf41e-5309-4d59-a072-ce92d21f6b92" name="Changes" comment="" />
+      <created>1718981752829</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708019774668</updated>
-      <workItem from="1708019775680" duration="648000" />
-      <workItem from="1708097350318" duration="775000" />
-      <workItem from="1708106343836" duration="1148000" />
-      <workItem from="1711390226267" duration="3242000" />
-      <workItem from="1711550972859" duration="1060000" />
-      <workItem from="1711552114126" duration="4090000" />
+      <updated>1718981752829</updated>
+      <workItem from="1718981754086" duration="91000" />
+      <workItem from="1718982350320" duration="1137000" />
+      <workItem from="1718983581648" duration="47000" />
+      <workItem from="1718983658167" duration="28000" />
+      <workItem from="1718983689691" duration="28000" />
+      <workItem from="1718983736657" duration="927000" />
+      <workItem from="1718984745496" duration="14000" />
+      <workItem from="1718985057601" duration="1576000" />
+      <workItem from="1718986687512" duration="3067000" />
+      <workItem from="1718989809937" duration="1140000" />
+      <workItem from="1718990979558" duration="2598000" />
+      <workItem from="1718994605897" duration="507000" />
+      <workItem from="1718995134042" duration="391000" />
+      <workItem from="1718995534995" duration="178000" />
+      <workItem from="1718995724565" duration="877000" />
+      <workItem from="1718996622210" duration="67000" />
+      <workItem from="1718996711648" duration="684000" />
+      <workItem from="1718997436475" duration="4493000" />
     </task>
     <servers />
   </component>
@@ -247,23 +160,14 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/formacao_python$app_v5.coverage" NAME="app_v5 Coverage Results" MODIFIED="1711555736806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p3/sabor-express" />
-    <SUITE FILE_PATH="coverage/formacao_python$tuplas_vs_listas.coverage" NAME="tuplas-vs-listas Coverage Results" MODIFIED="1711554687678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p3" />
-    <SUITE FILE_PATH="coverage/formacao_python$compreendendo_condicionais.coverage" NAME="compreendendo-condicionais Coverage Results" MODIFIED="1711393178642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p2" />
-    <SUITE FILE_PATH="coverage/formacao_python$descricoes.coverage" NAME="descricoes Coverage Results" MODIFIED="1708107541605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p1" />
-    <SUITE FILE_PATH="coverage/formacao_python$hora_da_prática___condicionais.coverage" NAME="hora da prática - condicionais Coverage Results" MODIFIED="1711393272400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p2" />
-    <SUITE FILE_PATH="coverage/formacao_python$menu.coverage" NAME="menu Coverage Results" MODIFIED="1708019788767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_5/p6" />
-<<<<<<< HEAD
-=======
-    <SUITE FILE_PATH="coverage/formacao_python$decifrando_dicionários_com_ternarios.coverage" NAME="decifrando_dicionários_com_ternarios Coverage Results" MODIFIED="1712685305194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p4" />
-    <SUITE FILE_PATH="coverage/formacao_python$app_v6_alura.coverage" NAME="app_v6_alura Coverage Results" MODIFIED="1712685657021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p4/sabor-express" />
->>>>>>> feature/unidade-1.9.4
-    <SUITE FILE_PATH="coverage/formacao_python$print_input.coverage" NAME="print_input Coverage Results" MODIFIED="1708106610770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9" />
-    <SUITE FILE_PATH="coverage/formacao_python$Interpretando_listas_e_erros.coverage" NAME="Interpretando listas e erros Coverage Results" MODIFIED="1711556269403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p3" />
-    <SUITE FILE_PATH="coverage/formacao_python$app_v4_alura.coverage" NAME="app_v4_alura Coverage Results" MODIFIED="1711393384819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p2/sabor-express" />
-    <SUITE FILE_PATH="coverage/formacao_python$while_example.coverage" NAME="while_example Coverage Results" MODIFIED="1711555556609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p3" />
-    <SUITE FILE_PATH="coverage/formacao_python$app_v4.coverage" NAME="app_v4 Coverage Results" MODIFIED="1711392824513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p2/sabor-express" />
-    <SUITE FILE_PATH="coverage/formacao_python$app_v3.coverage" NAME="app_v3 Coverage Results" MODIFIED="1708106814821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/sabor-express" />
-    <SUITE FILE_PATH="coverage/formacao_python$Avaliando_listas_e_iterações.coverage" NAME="Avaliando listas e iterações Coverage Results" MODIFIED="1711556168809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_1/mod_9/p3" />
+    <SUITE FILE_PATH="coverage/formacao_python$test_bytebank.coverage" NAME="test_bytebank Coverage Results" MODIFIED="1718996333202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/projeto_teste/tests" />
+    <SUITE FILE_PATH="coverage/formacao_python$.coverage" NAME=" Coverage Results" MODIFIED="1718999541863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_4/mod_1/p2/python_tdd/test" />
+    <SUITE FILE_PATH="coverage/formacao_python$test_bytebank__2_.coverage" NAME="test_bytebank (2) Coverage Results" MODIFIED="1718986815255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/python_tdd/tests" />
+    <SUITE FILE_PATH="coverage/formacao_python$test_bytebank__3_.coverage" NAME="test_bytebank (3) Coverage Results" MODIFIED="1718990063564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/projeto_teste/tests" />
+    <SUITE FILE_PATH="coverage/formacao_python$pytest_for_test_bytebank_TestClass_test_quando_idade_recebe_13_03_2000_deve_retornar_22.coverage" NAME="pytest for test_bytebank.TestClass.test_quando_idade_recebe_13_03_2000_deve_retornar_22 Coverage Results" MODIFIED="1718987585427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_4/mod_1/p2/python_tdd/test" />
+    <SUITE FILE_PATH="coverage/formacao_python$teste.coverage" NAME="teste Coverage Results" MODIFIED="1718982738496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.filed/unit_default/mod_1/p1" />
+    <SUITE FILE_PATH="coverage/formacao_python$pytest_in_test_bytebank_py.coverage" NAME="pytest in test_bytebank.py Coverage Results" MODIFIED="1718987547578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_4/mod_1/p2/python_tdd/test" />
+    <SUITE FILE_PATH="coverage/formacao_python$test_bytebank__1_.coverage" NAME="test_bytebank (1) Coverage Results" MODIFIED="1718997031913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../../tmp/projetos_PATH/python_tdd/tests" />
+    <SUITE FILE_PATH="coverage/formacao_python$07_Python_Lists.coverage" NAME="07_Python_Lists Coverage Results" MODIFIED="1719001354906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extras/W3Schools.com (Python Examples)" />
   </component>
 </project>

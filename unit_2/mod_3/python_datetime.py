@@ -25,7 +25,7 @@ print(data_em_texto)
 
 print("-----------------------------------------------")
 
-"""Formatando datas em strings usando o método strftime():"""
+"""Formatando codigo em strings usando o método strftime():"""
 
 data_em_texto = data_atual.strftime('%d/%m/%Y')
 print(data_em_texto)
