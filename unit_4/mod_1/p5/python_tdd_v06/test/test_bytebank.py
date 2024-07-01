@@ -50,16 +50,16 @@ class TestClass:
     import sys
     @pytest.mark.skipif(sys.version_info < (3, 10), reason="Requer Python na versão 3.10 ou superior")
     def test_quando_decrescimo_salario_recebe_100000_deve_retornar_90000(self):
-        entrada_salario = 100000 #given
+        entrada_salario = 100000 #given (dado, entrada)
         entrada_nome = 'Paulo Bragança'
         # entrada_nome = 'Paulo Caminha' Falha
         esperado = 90000
 
         funcionario_teste = Funcionario(entrada_nome, '11/11/2000', entrada_salario)
-        funcionario_teste.decrescimo_salario() # when
+        funcionario_teste.decrescimo_salario() # when (quando, executar algo, ação)
         resultado = funcionario_teste.salario
 
-        assert resultado == esperado  # then
+        assert resultado == esperado  # then (então, mostre o resultado)
 
     # @pytest.mark.calcular_bonus
     @mark.calcular_bonus
