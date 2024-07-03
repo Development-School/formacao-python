@@ -3,7 +3,7 @@
 ATENÇÃO!!!
 
 O Python não reconhece as pastas com hífen como por exemplo "python-tdd"
-logo, a importação não funcionará dessa forma, então renomeie as pastas de projeto com underline
+logo, a importação não funcionará dessa forma, então renomeie as pastas de content com underline
 
 Ex.: "python_tdd"
 """
